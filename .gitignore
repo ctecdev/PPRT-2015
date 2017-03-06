@@ -1,0 +1,58 @@
+# Java class files
+*.class
+
+# Operating System Files
+
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Windows shortcuts
+*.lnk
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Build Files #
+
+/bin
+/target
+/build
+
+# Eclipse Project Files #
+
+.classpath
+.project
+.settings
+.springBeans
+
+# IntelliJ IDEA Files #
+
+*.iml
+*.ipr
+*.iws
+*.idea
+
+# Gradle Files #
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*

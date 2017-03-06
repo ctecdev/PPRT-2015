@@ -1,0 +1,39 @@
+## Apache James Server 3.0 beta4
+
+Napomena: navedene komande vaze za 3.0 verziju servera
+
+1. Preuzmemo james
+2. Raspakujemo ga u zeljeni folder
+3. Pokrenemo james
+	 >>> james/bin/run.bat
+4. Zatim otvorimo 'Command Prompt'
+5. Pozicioniramo se na bin folder unutar james-a 
+	cd "putanja...\james\bin"
+6. Zatim dodamo domen
+	james-cli -h localhost -p 9999 adddomain localhost	
+7. Dodamo korisnike
+	james-cli -h localhost -p 9999 adduser process@localhost process
+	james-cli -h localhost -p 9999 adduser pera@localhost pera
+	james-cli -h localhost -p 9999 adduser mika@localhost mika
+	james-cli -h localhost -p 9999 adduser zika@localhost zika
+	james-cli -h localhost -p 9999 adduser batamilojka@localhost batamilojka
+	james-cli -h localhost -p 9999 adduser markomost@localhost markomost
+	james-cli -h localhost -p 9999 adduser zarkoskela@localhost zarkoskela
+	james-cli -h localhost -p 9999 adduser paljovkazidar@localhost paljovkazidar
+	james-cli -h localhost -p 9999 adduser budakesonac@localhost budakesonac
+	james-cli -h localhost -p 9999 adduser karantrans@localhost karantrans
+	james-cli -h localhost -p 9999 adduser zeljkobusplus@localhost zeljkobusplus
+	james-cli -h localhost -p 9999 adduser ratar@localhost ratar
+
+### Neke dodatne komande za james
+	
+james-cli -h localhost -p 9999 + 'command'
+
+'commands':
+    adduser </username> </password>
+    removeuser </username>
+    listusers
+    adddomain </domainname>
+    removedomain </domainname>
+    listdomains
+

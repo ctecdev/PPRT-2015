@@ -1,0 +1,34 @@
+body{
+	background: #c0f0f5;
+}
+
+table{
+	margin:25px;
+  	left: 15%;
+  	background: #8ec7f0;
+  	width: 40%;
+  	color: white;
+}
+
+#task_tr{
+	padding: 10px !important;
+}
+
+
+a{
+	background: #28abd7;
+	text-decoration: none;
+	font-size: 18px;
+	color:white;
+    border-radius: 4px;
+   	padding: 4px;
+   	margin: 8px;
+}
+input[type="submit"]{
+	background-color: #8cedf2;
+	color:white;
+}
+
+.tableFirma{
+	width: 20%;
+}

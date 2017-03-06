@@ -1,0 +1,71 @@
+
+
+#container{
+	margin-top: 70px;
+}
+
+#content{
+	height: 700px;
+    width: 90%;
+	float: inherit;
+	margin: 5%;
+	margin-top: 10%;
+	border-radius: 10px;
+	
+	-webkit-box-shadow: inset 0px 1px 0px #9ab1ec;
+	box-shadow: inset 0px 1px 0px #9ab1ec;
+}
+
+
+#content h4 {
+	padding: 10px;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 0px -1px 0px #5b6ddc;
+	
+	border-bottom-color: #2f3851;
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
+}
+
+table{
+	margin:25px;
+  	left: 15%;
+  	background: none;
+  	width: 700px;
+  	
+  	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 0px -1px 0px #5b6ddc;
+	outline: none;
+
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	background-clip: padding-box;
+	border-radius: 6px;
+
+	background-color: #323B55;
+	
+	-webkit-box-shadow: inset 0px 1px 0px #9ab1ec;
+	box-shadow: inset 0px 1px 0px #9ab1ec;
+	
+	cursor: pointer;
+
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+.table_firma{
+	width: 240px;
+}
+
+#task_tr td{
+	padding: 10px;
+}
