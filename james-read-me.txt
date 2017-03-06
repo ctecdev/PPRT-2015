@@ -4,7 +4,7 @@ Napomena: navedene komande vaze za 3.0 verziju servera
 
 1. Preuzmemo james
 2. Raspakujemo ga u zeljeni folder
-3. Pokrenemo james
+3. Pokrenemo james (nazivi foldera u putanji do james-servera ne smeju imati razmake)
 	 >>> james/bin/run.bat
 4. Zatim otvorimo 'Command Prompt'
 5. Pozicioniramo se na bin folder unutar james-a 
