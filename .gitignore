@@ -1,58 +1,69 @@
-# Java class files
-*.class
-
-# Operating System Files
-
-*.DS_Store
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Windows shortcuts
-*.lnk
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Build Files #
-
+### Build Files ###
 /bin
 /target
-/build
+/build/
 
-# Eclipse Project Files #
+### Gradle Files ###
+.gradle
 
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+# dist/
+nbdist/
+.nb-gradle/
+
+### Eclipse Project ###
 .classpath
 .project
 .settings
 .springBeans
 
-# IntelliJ IDEA Files #
+### Java class ###
+*.class
 
-*.iml
-*.ipr
-*.iws
-*.idea
+### Operating System ###
+*.DS_Store
+Thumbs.db
+ehthumbs.db
 
-# Gradle Files #
-.gradle/
-!gradle/wrapper/gradle-wrapper.jar
+### Folder config ###
+Desktop.ini
 
-# Mobile Tools for Java (J2ME)
+### Windows shortcuts
+*.lnk
+
+### Recycle Bin used on file shares ###
+$RECYCLE.BIN/
+
+### Windows Installer ###
+*.cab
+*.msi
+*.msm
+*.msp
+
+### Mobile Tools for Java (J2ME) ###
 .mtj.tmp/
 
-# Package Files #
+### Package ###
 *.jar
 *.war
 *.ear
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+### virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml ###
 hs_err_pid*

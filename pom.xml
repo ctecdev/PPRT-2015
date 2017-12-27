@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   
   <groupId>rs.ac.uns.ftn.pprt.ctecdev</groupId>
-  <artifactId>PPRT-2015</artifactId>
+  <artifactId>work-services</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
