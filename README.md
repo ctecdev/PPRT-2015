@@ -19,7 +19,7 @@ In 'james-read-me.txt' file are some instructions how to configure 'James Server
 Add `Activiti BPMN Designer` plugin to Eclipse - https://activiti.org/designer/update/ 
 ( Eclipse Toolbar > Help > Install New Software >>> Add ... )
 ```
-![IMG](https://github.com/ctecdev/work-services/tree/master/img/install_plugin.jpg)
+![IMG](img/install_plugin.jpg)
 
 ### Setup
 
@@ -72,7 +72,7 @@ In `InitializeController.java` is some data for database
 To initialize data, run 'InitializeControler' through the browser
 Just copy `http://localhost:8080/init` this adress to adress bar and pres enter
 ```
-![IMG](https://github.com/ctecdev/work-services/tree/master/img/init_data.jpg)
+![IMG](img/init_data.jpg)
 
 ### Go to Home page (localhost)
 ```
