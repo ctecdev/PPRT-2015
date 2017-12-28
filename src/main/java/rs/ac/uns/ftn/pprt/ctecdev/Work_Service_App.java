@@ -16,13 +16,13 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
         org.activiti.spring.boot.SecurityAutoConfiguration.class,
         org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration.class})
 @EnableWebMvc
-public class PPRT_2015_App {
+public class Work_Service_App {
 	
 	
     
 	public static void main(String[] args) {
-        SpringApplication.run(PPRT_2015_App.class, args);
-        System.out.println("<<<>>>	PPRT_2015_App STARTED	<<<>>>");
+        SpringApplication.run(Work_Service_App.class, args);
+        System.out.println("<<<>>>	 Work_Service_App STARTED	<<<>>>");
     }
 
     @Bean
